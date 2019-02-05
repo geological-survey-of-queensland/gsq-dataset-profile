@@ -1,0 +1,30 @@
+# GSQ Dataset Profile's profile declaration according to the Profiles Ontology
+@prefix gsq: <http://linked.data.gov.au/def/gsq-dataset-profile/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix role: <http://www.w3.org/ns/dx/prof/role/> .
+
+
+<http://linked.data.gov.au/def/gsq-dataset-profile>
+  a prof:Profile ;
+  rdfs:label "GSQ's Dataset Profile" ;
+  rdfs:comment """The Geological Survey of Queensland's profile of DCAT (rev),
+  the revised edition of the Dataset Catalogue Vocabulary""" ;
+  prof:isProfileOf <http://www.w3.org/ns/dcat#> ;
+  prof:hasResource [
+    a prof:ResourceDescriptor;
+  	rdfs:label "Guidance Document (PDF)" ;
+  	dct:format <https://w3id.org/mediatype/application/pdf> ;
+  	prof:hasRole role:Guidance ;
+    prof:hasArtifact gsq:Guidance.pdf
+  ] ,
+  [
+    a prof:ResourceDescriptor ;
+    dct:conformsTo <http://www.w3.org/ns/shacl#> ;
+    dct:format <https://w3id.org/mediatype/text/turtle> ;
+    prof:hasRole role:fullConstraints ;
+    prof:hasArtifact gsq:constraints.ttl
+  ] .
+  
+<http://www.w3.org/ns/dcat#> a dct:Standard ;
+  rdfs:label "DCAT (revised)" .
