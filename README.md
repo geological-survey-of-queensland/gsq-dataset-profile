@@ -25,7 +25,7 @@ The content of this repository is licensed for use with the [Creative Commons 4.
 
 ## Contacts
 *owner*:  
-**Geological Survey of Queensland**
+**Geological Survey of Queensland**  
 1 William St, Brisbane, Queensland, Australia  
 
 *author*:  
