@@ -1,7 +1,7 @@
 # GSQ Dataset Profile
 This is a model of a general *dataset*.
 
-<img src="model/dataset.png" style="width:800px;" alt="Dataset model" />  
+<img src="model/dataset.svg" style="width:800px;" alt="Dataset model" />  
 
 **Fig. 1**: The general model of a dataset (after [DCAT (rev)](https://www.w3.org/TR/vocab-dcat-2/)).  
 
