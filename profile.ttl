@@ -5,7 +5,7 @@
 @prefix role: <http://www.w3.org/ns/dx/prof/role/> .
 
 
-<http://linked.data.gov.au/def/gsq-dataset-profile>
+<http://linked.data.gov.au/def/gsq/dataset>
   a prof:Profile ;
   rdfs:label "GSQ's Dataset Profile" ;
   rdfs:comment """The Geological Survey of Queensland's profile of DCAT (rev),
@@ -25,6 +25,6 @@
     prof:hasRole role:fullConstraints ;
     prof:hasArtifact gsq:constraints.ttl
   ] .
-  
+
 <http://www.w3.org/ns/dcat#> a dct:Standard ;
   rdfs:label "DCAT (revised)" .
