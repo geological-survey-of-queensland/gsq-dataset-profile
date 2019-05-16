@@ -17,8 +17,8 @@ A `dataset` is the output of an activity on an entity by an agent.
 
 **Fig. 2**: The level 0 conceptual model of creating a dataset.
 
-An example:
-* A company performs a `[survey](https://github.com/geological-survey-of-queensland/gsq-survey-profile)` collect to collect geochemical samples, `observations` are performed on the samples, with measurements recorded as `results`. The measurements (data) are compiled into a `dataset` that meets the requirements of the end user of the data.
+#### An example:
+* A company performs a `survey` to collect geochemical samples, `observations` are performed on the samples, with measurements recorded as `results`. The measurements (data) are compiled into a `dataset` that meets the requirements of the end user of the data.
 
 
 ## Profile Resources
@@ -76,11 +76,11 @@ The vocabularies used in this profile are:
 The content of this repository is licensed for use with the [Creative Commons 4.0 License](https://creativecommons.org/licenses/by/4.0/). See the [license deed](LICENSE) for details.
 
 
-## Contacts
-*owner*:
-**Mark Gordon**
-*Director - Geoscience Information*
-Geological Survey of Queensland
+## Contacts 
+*owner*: 
+**Mark Gordon** 
+*Director - Geoscience Information* 
+Geological Survey of Queensland 
 <mark.gordon@dnrme.qld.gov.au>
 
 *author*:  
