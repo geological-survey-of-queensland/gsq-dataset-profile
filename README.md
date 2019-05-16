@@ -54,8 +54,8 @@ CLasses used in this profile:
 14. [SOSA feature of interest](https://www.w3.org/TR/vocab-ssn/#SOSAFeatureOfInterest)
 15. [SOSA observation](https://www.w3.org/TR/vocab-ssn/#SOSAObservation)
 16. [SOSA sampling](https://www.w3.org/TR/vocab-ssn/#SOSASampling) - the survey event
-17. [rdfs:seeAlso](https://www.w3.org/TR/rdf-schema/#ch_seealso)
-18. [FOAF document](http://xmlns.com/foaf/spec/#term_Document) - used to capture the secondary metadata in JSON format
+17. [rdfs:seeAlso](https://www.w3.org/TR/rdf-schema/#ch_seealso) - used to indicate secondary metadata is available
+18. [FOAF document](http://xmlns.com/foaf/spec/#term_Document) - the document with secondary metadata
 19. [ProperInterval](https://www.w3.org/TR/owl-time/#time:ProperInterval)
 
 ### [Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution) properties not shown in the diagram:
@@ -77,11 +77,11 @@ The content of this repository is licensed for use with the [Creative Commons 4.
 
 
 ## Contacts 
-*owner*: 
-**Mark Gordon** 
-*Director - Geoscience Information* 
-Geological Survey of Queensland 
-<mark.gordon@dnrme.qld.gov.au>
+*owner*:  
+**Mark Gordon**  
+*Director - Geoscience Information*  
+Geological Survey of Queensland  
+<mark.gordon@dnrme.qld.gov.au>  
 
 *author*:  
 **Nicholas Car**  
