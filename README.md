@@ -38,7 +38,7 @@ CLasses used in this profile:
 
 ## OWL classes
 1. [dcat:Dataset](https://w3c.github.io/dxwg/dcat/#Class:Dataset)
-2. [dcat:Theme](https://w3c.github.io/dxwg/dcat/#Property:resource_theme) - used to categorise the resource, the GSQ themes are described as [skos:Concepts](http://www.w3.org/2004/02/skos/core#Concept)s in the vocabulary [GSQ Data Themes](http://vocabs.gsq.digital/vocabulary/gsq-data-themes)
+2. [dcat:Theme](https://w3c.github.io/dxwg/dcat/#Property:resource_theme) - used to categorise the resource, the GSQ themes are described as [skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)s in the vocabulary [GSQ Data Themes](http://vocabs.gsq.digital/vocabulary/gsq-data-themes)
 3. [dcat:Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution)
 4. [dct:Location](https://w3c.github.io/dxwg/dcat/#Class:Location)
 5. [dct:creator](https://w3c.github.io/dxwg/dcat/#Property:resource_creator)
@@ -54,7 +54,7 @@ CLasses used in this profile:
 14. [SOSA feature of interest](https://www.w3.org/TR/vocab-ssn/#SOSAFeatureOfInterest)
 15. [SOSA observation](https://www.w3.org/TR/vocab-ssn/#SOSAObservation)
 16. [SOSA sampling](https://www.w3.org/TR/vocab-ssn/#SOSASampling) - the survey event
-17. [rdfs:seeAlso](https://www.w3.org/TR/rdf-schema/#ch_seealso) - used to indicate secondary metadata is available
+17. [rdfs:seeAlso](https://www.w3.org/TR/rdf-schema/#ch_seealso) - refers to secondary metadata
 18. [FOAF document](http://xmlns.com/foaf/spec/#term_Document) - the document with secondary metadata
 19. [ProperInterval](https://www.w3.org/TR/owl-time/#time:ProperInterval)
 
