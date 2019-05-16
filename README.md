@@ -1,5 +1,5 @@
 # GSQ Dataset Profile
-This is a model of a general *dataset*.
+This is a model of a general `dataset`.
 
 <img src="model/dataset.svg" style="width:800px;" alt="Dataset model" />  
 
@@ -11,14 +11,14 @@ In addition to profiling DCAT (rev), this profile, through published alignments 
 
 
 ## Usage
-A dataset is the output of an activity on an entity by an agent.
+A `dataset` is the output of an activity on an entity by an agent.
 
 <img src="model/level0-conceptual-model.svg" style="width:800px;" alt="Level 0 conceptual model" />  
 
 **Fig. 2**: The level 0 conceptual model of creating a dataset.
 
 An example:
-* A company performs a survey collect to collect geochemical samples, observations are performed on the samples, with measurements recorded as results. The measurements (data) are compiled into a dataset that meets the requirements of the end user of the data.
+* A company performs a `[survey](https://github.com/geological-survey-of-queensland/gsq-survey-profile)` collect to collect geochemical samples, `observations` are performed on the samples, with measurements recorded as `results`. The measurements (data) are compiled into a `dataset` that meets the requirements of the end user of the data.
 
 
 ## Profile Resources
@@ -58,12 +58,12 @@ CLasses used in this profile:
 18. [FOAF document](http://xmlns.com/foaf/spec/#term_Document) - used to capture the secondary metadata in JSON format
 19. [ProperInterval](https://www.w3.org/TR/owl-time/#time:ProperInterval)
 
-[Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution) properties not shown in the diagram:
-3. [Title](https://w3c.github.io/dxwg/dcat/#Property:distribution_title)
-3. [Description](https://w3c.github.io/dxwg/dcat/#Property:distribution_description)
+### [Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution) properties not shown in the diagram:
+1. [Title](https://w3c.github.io/dxwg/dcat/#Property:distribution_title)
+2. [Description](https://w3c.github.io/dxwg/dcat/#Property:distribution_description)
 3. [Download URL](https://w3c.github.io/dxwg/dcat/#Property:distribution_download_url)
-3. [Byte size](https://w3c.github.io/dxwg/dcat/#Property:distribution_size)
-3. [Format](https://w3c.github.io/dxwg/dcat/#Property:distribution_format)
+4. [Byte size](https://w3c.github.io/dxwg/dcat/#Property:distribution_size)
+5. [Format](https://w3c.github.io/dxwg/dcat/#Property:distribution_format)
 
 
 ## Vocabularies
