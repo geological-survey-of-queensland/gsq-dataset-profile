@@ -58,6 +58,13 @@ CLasses used in this profile:
 18. [FOAF document](http://xmlns.com/foaf/spec/#term_Document) - used to capture the secondary metadata in JSON format
 19. [ProperInterval](https://www.w3.org/TR/owl-time/#time:ProperInterval)
 
+[Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution) properties not shown in the diagram:
+3. [Title](https://w3c.github.io/dxwg/dcat/#Property:distribution_title)
+3. [Description](https://w3c.github.io/dxwg/dcat/#Property:distribution_description)
+3. [Download URL](https://w3c.github.io/dxwg/dcat/#Property:distribution_download_url)
+3. [Byte size](https://w3c.github.io/dxwg/dcat/#Property:distribution_size)
+3. [Format](https://w3c.github.io/dxwg/dcat/#Property:distribution_format)
+
 
 ## Vocabularies
 The vocabularies used in this profile are:
