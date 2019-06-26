@@ -50,13 +50,13 @@ CLasses used in this profile:
 11. [dct:license](https://w3c.github.io/dxwg/dcat/#Property:resource_license) - not shown in diagram for readability
 12. [dcat:keyword](https://w3c.github.io/dxwg/dcat/#Property:resource_keyword) - not shown in diagram for readability
 13. [foaf:Agent](http://xmlns.com/foaf/spec/#term_Agent)
-[SOSA sample](https://www.w3.org/TR/vocab-ssn/#SOSASample)
-14. [SOSA feature of interest](https://www.w3.org/TR/vocab-ssn/#SOSAFeatureOfInterest)
-15. [SOSA observation](https://www.w3.org/TR/vocab-ssn/#SOSAObservation)
-16. [SOSA sampling](https://www.w3.org/TR/vocab-ssn/#SOSASampling) - the survey event
-17. [rdfs:seeAlso](https://www.w3.org/TR/rdf-schema/#ch_seealso) - refers to secondary metadata
-18. [FOAF document](http://xmlns.com/foaf/spec/#term_Document) - the document with secondary metadata
-19. [ProperInterval](https://www.w3.org/TR/owl-time/#time:ProperInterval)
+14. [SOSA sample](https://www.w3.org/TR/vocab-ssn/#SOSASample)
+15. [SOSA feature of interest](https://www.w3.org/TR/vocab-ssn/#SOSAFeatureOfInterest)
+16. [SOSA observation](https://www.w3.org/TR/vocab-ssn/#SOSAObservation)
+17. [SOSA sampling](https://www.w3.org/TR/vocab-ssn/#SOSASampling) - the survey event
+18. [rdfs:seeAlso](https://www.w3.org/TR/rdf-schema/#ch_seealso) - refers to secondary metadata
+19. [FOAF document](http://xmlns.com/foaf/spec/#term_Document) - the document with secondary metadata
+20. [ProperInterval](https://www.w3.org/TR/owl-time/#time:ProperInterval)
 
 ### [Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution) properties not shown in the diagram:
 1. [Title](https://w3c.github.io/dxwg/dcat/#Property:distribution_title)
