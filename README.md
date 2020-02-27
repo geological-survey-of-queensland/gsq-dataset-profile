@@ -1,4 +1,5 @@
 # GSQ Dataset Profile
+
 This is a model of a general `dataset`.
 
 <img src="model/dataset.svg" style="width:800px;" alt="Dataset model" />  
@@ -9,19 +10,20 @@ It is a profile of the [DCAT (rev)](https://w3c.github.io/dxwg/dcat/) Dataset Ca
 
 In addition to profiling DCAT (rev), this profile, through published alignments of DCAT (rev) is mapped to [ISO 19115-1:2014 Geographic information -- Metadata](https://www.iso.org/standard/53798.html) which is the model used for spatial dataset's metadata transfer in Australia.
 
-
 ## Usage
+
 A `dataset` is the output of an activity on an entity by an agent.
 
 <img src="model/level0-conceptual-model.svg" style="width:800px;" alt="Level 0 conceptual model" />  
 
 **Fig. 2**: The level 0 conceptual model of creating a dataset.
 
-#### An example:
+### An example:
+
 * A company performs a `survey` to collect geochemical samples, `observations` are performed on the samples, with measurements recorded as `results`. The measurements (data) are compiled into a `dataset` that meets the requirements of the end user of the data.
 
-
 ## Profile Resources
+
 This profile is presented as a series of files that perform different roles:
 
 * [Guidance document](Guidance.pdf) - a written document explaining how to use this profile
@@ -30,13 +32,13 @@ This profile is presented as a series of files that perform different roles:
 * [constraints.ttl](constraints.ttl) - a constraints file, formulated using [SHACL](https://www.w3.org/TR/shacl/), that can be used to validate instances of metadata to check conformance with this profile.
 * [profile.ttl](profile.ttl) - the profile declaration. A description of all of the items in this profile (the formal model, validating resources, documentation etc.) according to the W3C's [Profiles Ontology](https://www.w3.org/TR/dx-prof/) which describes how all the parts related to one another, the roles they play (to give *guidance* for use, to *validate* data etc.) and how this profile *profiles* the various standards listed above.
 
-
 ## GSQ classes
+
 CLasses used in this profile:
 1. [GSQ Survey Profile](https://github.com/geological-survey-of-queensland/gsq-survey-profile)
 
-
 ## OWL classes
+
 1. [dcat:Dataset](https://w3c.github.io/dxwg/dcat/#Class:Dataset)
 2. [dcat:Theme](https://w3c.github.io/dxwg/dcat/#Property:resource_theme) - used to categorise the resource, the GSQ themes are described as [skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)s in the vocabulary [GSQ Data Themes](http://vocabs.gsq.digital/vocabulary/gsq-data-themes)
 3. [dcat:Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution)
@@ -59,24 +61,27 @@ CLasses used in this profile:
 20. [ProperInterval](https://www.w3.org/TR/owl-time/#time:ProperInterval)
 
 ### [Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution) properties not shown in the diagram:
+
 1. [Title](https://w3c.github.io/dxwg/dcat/#Property:distribution_title)
 2. [Description](https://w3c.github.io/dxwg/dcat/#Property:distribution_description)
 3. [Download URL](https://w3c.github.io/dxwg/dcat/#Property:distribution_download_url)
 4. [Byte size](https://w3c.github.io/dxwg/dcat/#Property:distribution_size)
 5. [Format](https://w3c.github.io/dxwg/dcat/#Property:distribution_format)
 
-
 ## Vocabularies
+
 The vocabularies used in this profile are:
-1. [GSQ Data Themes](http://vocabs.gsq.digital/vocabulary/gsq-data-themes)
-2. [Data Access Rights](http://vocabs.gsq.digital/vocabulary/data-access)
 
+1. [GSQ Data Themes](http://linked.data.gov.au/def/gsq-dataset-theme)
+2. [Data Access Rights](http://linked.data.gov.au/def/data-access-rights)
+3. [Earth Science Data Category](http://linked.data.gov.au/def/earth-science-data-category)
 
-## License
+## Licence
+
 The content of this repository is licensed for use with the [Creative Commons 4.0 License](https://creativecommons.org/licenses/by/4.0/). See the [license deed](LICENSE) for details.
 
+## Contacts
 
-## Contacts 
 *owner*:  
 **Mark Gordon**  
 *Director - Geoscience Information*  
@@ -84,7 +89,7 @@ Geological Survey of Queensland
 <mark.gordon@dnrme.qld.gov.au>  
 
 *author*:  
-**Nicholas Car**  
-*Senior Experimental Scientist*  
-CSIRO Land & Water, Environmental Informatics Group  
-<nicholas.car@csiro.au>
+**David Crosswell**  
+*Enterprise Architect*  
+CrossLateral
+[https://crosslateral.com.au](https://crosslateral.com.au)
