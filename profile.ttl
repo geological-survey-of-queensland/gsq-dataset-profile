@@ -1,11 +1,11 @@
 # GSQ Dataset Profile's profile declaration according to the Profiles Ontology
-@prefix gsq: <http://linked.data.gov.au/def/gsq-dataset-profile/> .
+@prefix gsq: <https://linked.data.gov.au/def/gsq-dataset-profile/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix prof: <http://www.w3.org/ns/dx/prof/> .
 @prefix role: <http://www.w3.org/ns/dx/prof/role/> .
 
 
-<http://linked.data.gov.au/def/gsq/dataset>
+<https://linked.data.gov.au/def/gsq/dataset>
   a prof:Profile ;
   rdfs:label "GSQ's Dataset Profile" ;
   rdfs:comment """The Geological Survey of Queensland's profile of DCAT (rev),

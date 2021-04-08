@@ -72,9 +72,9 @@ CLasses used in this profile:
 
 The vocabularies used in this profile are:
 
-1. [GSQ Data Themes](http://linked.data.gov.au/def/gsq-dataset-theme)
-2. [Data Access Rights](http://linked.data.gov.au/def/data-access-rights)
-3. [Earth Science Data Category](http://linked.data.gov.au/def/earth-science-data-category)
+1. [GSQ Data Themes](https://linked.data.gov.au/def/gsq-dataset-theme)
+2. [Data Access Rights](https://linked.data.gov.au/def/data-access-rights)
+3. [Earth Science Data Category](https://linked.data.gov.au/def/earth-science-data-category)
 
 ## Licence
 
