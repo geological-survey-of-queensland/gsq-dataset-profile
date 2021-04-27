@@ -1,4 +1,4 @@
-@prefix : <http://linked.data.gov.au/def/gsq/dataset#> .
+@prefix : <https://linked.data.gov.au/def/gsq/dataset#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -6,10 +6,10 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix prof: <http://www.w3.org/ns/dx/prof/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://linked.data.gov.au/def/gsq/dataset> .
+@base <https://linked.data.gov.au/def/gsq/dataset> .
 
-<http://linked.data.gov.au/def/gsq/dataset> rdf:type owl:Ontology ;
-                                             owl:versionIRI <http://linked.data.gov.au/def/gsq-dataset/> ;
+<https://linked.data.gov.au/def/gsq/dataset> rdf:type owl:Ontology ;
+                                             owl:versionIRI <https://linked.data.gov.au/def/gsq-dataset/> ;
                                              owl:imports <http://www.w3.org/2006/time#2016> ,
                                                          <http://www.w3.org/ns/dcat> ,
                                                          <http://www.w3.org/ns/sosa/> ,
@@ -36,8 +36,8 @@ owl:qualifiedCardinality rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
-###  http://linked.data.gov.au/def/gsq/dataset/hadGenerationMethod
-<http://linked.data.gov.au/def/gsq/dataset/hadGenerationMethod> rdf:type owl:ObjectProperty ;
+###  https://linked.data.gov.au/def/gsq/dataset/hadGenerationMethod
+<https://linked.data.gov.au/def/gsq/dataset/hadGenerationMethod> rdf:type owl:ObjectProperty ;
                                                                 rdfs:domain dcat:Dataset ;
                                                                 rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ;
                                                                 owl:propertyChainAxiom ( <http://www.w3.org/ns/prov#wasGeneratedBy>
@@ -52,27 +52,27 @@ owl:qualifiedCardinality rdf:type owl:AnnotationProperty .
 #    Classes
 #################################################################
 
-###  http://linked.data.gov.au/def/gsq/dataset/CrustalSample
-<http://linked.data.gov.au/def/gsq/dataset/CrustalSample> rdf:type owl:Class ;
+###  https://linked.data.gov.au/def/gsq/dataset/CrustalSample
+<https://linked.data.gov.au/def/gsq/dataset/CrustalSample> rdf:type owl:Class ;
                                                           rdfs:subClassOf <http://www.w3.org/ns/sosa/Sample> ,
                                                                           [ rdf:type owl:Restriction ;
                                                                             owl:onProperty <http://www.w3.org/ns/ssn/ext/hasUltimateFeatureOfInterest> ;
                                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                            owl:onClass <http://linked.data.gov.au/def/gsq/dataset/EarthsCrustFOI>
+                                                                            owl:onClass <https://linked.data.gov.au/def/gsq/dataset/EarthsCrustFOI>
                                                                           ] ;
                                                           rdfs:comment "A Sample who's ultimate Feature of Interest is a Feature of Interest within the Earth's Crust."@en ;
                                                           rdfs:label "Crustal Sample" .
 
 
-###  http://linked.data.gov.au/def/gsq/dataset/EarthsCrustFOI
-<http://linked.data.gov.au/def/gsq/dataset/EarthsCrustFOI> rdf:type owl:Class ;
+###  https://linked.data.gov.au/def/gsq/dataset/EarthsCrustFOI
+<https://linked.data.gov.au/def/gsq/dataset/EarthsCrustFOI> rdf:type owl:Class ;
                                                            rdfs:subClassOf <http://www.w3.org/ns/sosa/FeatureOfInterest> ;
                                                            rdfs:comment "A Feature of Interest within the Earth's Crust, that is within the outermost solid shell of the Earth with the following two depth-from-surface ranges: Oceanic: 5 km to 10 km and and composed primarily of denser, more mafic rocks, such as basalt, diabase, and gabbro and Continental: 30 km to 50 km and mostly composed of less dense, more felsic rocks, such as granite."@en ;
                                                            rdfs:label "Earth's Crust Feature of Interest"@en .
 
 
-###  http://linked.data.gov.au/def/gsq/dataset/SamplingDataset
-<http://linked.data.gov.au/def/gsq/dataset/SamplingDataset> rdf:type owl:Class ;
+###  https://linked.data.gov.au/def/gsq/dataset/SamplingDataset
+<https://linked.data.gov.au/def/gsq/dataset/SamplingDataset> rdf:type owl:Class ;
                                                             rdfs:subClassOf dcat:Dataset ,
                                                                             <http://www.w3.org/ns/sosa/Sample> ,
                                                                             [ rdf:type owl:Restriction ;
@@ -84,15 +84,15 @@ owl:qualifiedCardinality rdf:type owl:AnnotationProperty .
                                                             rdfs:label "Sampling Dataset" .
 
 
-###  http://linked.data.gov.au/def/gsq/dataset/SeismicSamplingDataset
-<http://linked.data.gov.au/def/gsq/dataset/SeismicSamplingDataset> rdf:type owl:Class ;
-                                                                   rdfs:subClassOf <http://linked.data.gov.au/def/gsq/dataset/SamplingDataset> ;
+###  https://linked.data.gov.au/def/gsq/dataset/SeismicSamplingDataset
+<https://linked.data.gov.au/def/gsq/dataset/SeismicSamplingDataset> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <https://linked.data.gov.au/def/gsq/dataset/SamplingDataset> ;
                                                                    rdfs:comment "Seismic Sampling datasets are Sampling Datasets that are the results of Seismic Sampling events. They necissarily have a seismic sampling method as their procedure."@en ;
                                                                    rdfs:label "Seismic Sampling Dataset"@en .
 
 
-###  http://linked.data.gov.au/def/gsq/dataset/SeismicSamplingProcedure
-<http://linked.data.gov.au/def/gsq/dataset/SeismicSamplingProcedure> rdf:type owl:Class ;
+###  https://linked.data.gov.au/def/gsq/dataset/SeismicSamplingProcedure
+<https://linked.data.gov.au/def/gsq/dataset/SeismicSamplingProcedure> rdf:type owl:Class ;
                                                                      rdfs:subClassOf <http://www.w3.org/ns/sosa/Procedure> .
 
 
