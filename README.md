@@ -81,17 +81,8 @@ The vocabularies used in this profile are:
 The content of this repository is licensed for use with the [Creative Commons 4.0 License](https://creativecommons.org/licenses/by/4.0/). See the [license deed](LICENSE) for details.
 
 ## Contacts
-*System owner*:  
-**Mark Gordon**,
+**Geoscience Information Team**,
 Geological Survey of Queensland,
 Department of Resources,
 Brisbane, QLD, Australia,
-<mark.gordon@resources.qld.gov.au>  
-
-*Contributors*:  
-**Vance Kelly**,
-Principal Data Manager,
-Geological Survey of Queensland,
-Department of Resources,
-Brisbane, QLD, Australia,  
-<vance.kelly@resources.qld.gov.au>
+<geological_info@resources.qld.gov.au>
